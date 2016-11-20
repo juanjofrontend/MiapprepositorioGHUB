@@ -1,0 +1,66 @@
+body{
+    margin-top:70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* hace responsive la imagen */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* hace responsive la imagen del mapa de google */
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+.google-maps {
+position: relative;
+padding-top: 15%; 
+height: 20;
+}
+.google-maps iframe {
+
+width: 100% !important;
+height: 100% !important;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* para quitar estilos por defecto de lista */
+.listNoStyle {             
+    list-style: none;
+    padding: 0px; 
+}
+
+/* efecto del listado de partidos y partido */
+.partido, .listado{    
+    height: 104px;
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+    background: rgb(169, 240, 159);
+   
+   
+}
+
+/* efecto del listado de partidos y partido estando sobre */
+.partido:hover, .listado:hover, .partido:focus, .listado:focus{    
+    background-color:rgba(198, 198, 68, 0.91);
+    
+}
+
+
+
+
+
+
+
